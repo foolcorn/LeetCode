@@ -1,3 +1,1 @@
-"D:\Program Files\JetBrains\CLion 2021.1\bin\cmake\win\bin\cmake.exe" -E rm -f CMakeFiles\leetcode.dir/objects.a
-D:\mingw64\bin\ar.exe cr CMakeFiles\leetcode.dir/objects.a @CMakeFiles\leetcode.dir\objects1.rsp
-D:\mingw64\bin\g++.exe -g -Wl,--whole-archive CMakeFiles\leetcode.dir/objects.a -Wl,--no-whole-archive -o leetcode.exe -Wl,--out-implib,libleetcode.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\leetcode.dir\linklibs.rsp
+/usr/bin/c++ -g CMakeFiles/leetcode.dir/main.cpp.o -o leetcode 

@@ -8,604 +8,606 @@
 		<Option virtualFolders="CMake Files\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="D:/leetcode/cmake-build-debug"/>
+				<Option working_dir="/home/foolcorn/leetcode/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="D:/mingw64/bin/mingw32-make.exe -f &quot;D:/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="D:/mingw64/bin/mingw32-make.exe -f &quot;D:/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="D:/mingw64/bin/mingw32-make.exe -f &quot;D:/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="D:/mingw64/bin/mingw32-make.exe -f &quot;D:/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="leetcode">
-				<Option output="D:/leetcode/cmake-build-debug/leetcode.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="D:/leetcode/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
-					<Add directory="D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
-					<Add directory="D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
-					<Add directory="D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
-					<Add directory="D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
-					<Add directory="D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="D:/mingw64/bin/mingw32-make.exe -f &quot;D:/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 leetcode"/>
-					<CompileFile command="D:/mingw64/bin/mingw32-make.exe -f &quot;D:/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="D:/mingw64/bin/mingw32-make.exe -f &quot;D:/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="D:/mingw64/bin/mingw32-make.exe -f &quot;D:/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="leetcode/fast">
-				<Option output="D:/leetcode/cmake-build-debug/leetcode.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="D:/leetcode/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
-					<Add directory="D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
-					<Add directory="D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
-					<Add directory="D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
-					<Add directory="D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
-					<Add directory="D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="D:/mingw64/bin/mingw32-make.exe -f &quot;D:/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 leetcode/fast"/>
-					<CompileFile command="D:/mingw64/bin/mingw32-make.exe -f &quot;D:/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="D:/mingw64/bin/mingw32-make.exe -f &quot;D:/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="D:/mingw64/bin/mingw32-make.exe -f &quot;D:/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="edit_cache">
-				<Option working_dir="D:/leetcode/cmake-build-debug"/>
-				<Option type="4"/>
-				<MakeCommands>
-					<Build command="D:/mingw64/bin/mingw32-make.exe -f &quot;D:/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="D:/mingw64/bin/mingw32-make.exe -f &quot;D:/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="D:/mingw64/bin/mingw32-make.exe -f &quot;D:/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="D:/mingw64/bin/mingw32-make.exe -f &quot;D:/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/foolcorn/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/foolcorn/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/foolcorn/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/foolcorn/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
-				<Option working_dir="D:/leetcode/cmake-build-debug"/>
+				<Option working_dir="/home/foolcorn/leetcode/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="D:/mingw64/bin/mingw32-make.exe -f &quot;D:/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="D:/mingw64/bin/mingw32-make.exe -f &quot;D:/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="D:/mingw64/bin/mingw32-make.exe -f &quot;D:/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="D:/mingw64/bin/mingw32-make.exe -f &quot;D:/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/foolcorn/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/foolcorn/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/foolcorn/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/foolcorn/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/foolcorn/leetcode/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/foolcorn/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/foolcorn/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/foolcorn/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/foolcorn/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="leetcode">
+				<Option output="/home/foolcorn/leetcode/cmake-build-debug/leetcode" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/foolcorn/leetcode/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/foolcorn/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 leetcode"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/foolcorn/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/foolcorn/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/foolcorn/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="leetcode/fast">
+				<Option output="/home/foolcorn/leetcode/cmake-build-debug/leetcode" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/foolcorn/leetcode/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/foolcorn/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 leetcode/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/foolcorn/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/foolcorn/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/foolcorn/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="D:/leetcode/leetcode-0001.h">
+		<Unit filename="/home/foolcorn/leetcode/leetcode-0001.h">
 			<Option target="leetcode"/>
 		</Unit>
-		<Unit filename="D:/leetcode/leetcode-0002.h">
+		<Unit filename="/home/foolcorn/leetcode/leetcode-0002.h">
 			<Option target="leetcode"/>
 		</Unit>
-		<Unit filename="D:/leetcode/leetcode-0003.h">
+		<Unit filename="/home/foolcorn/leetcode/leetcode-0003.h">
 			<Option target="leetcode"/>
 		</Unit>
-		<Unit filename="D:/leetcode/leetcode-0004.h">
+		<Unit filename="/home/foolcorn/leetcode/leetcode-0004.h">
 			<Option target="leetcode"/>
 		</Unit>
-		<Unit filename="D:/leetcode/leetcode-0005.h">
+		<Unit filename="/home/foolcorn/leetcode/leetcode-0005.h">
 			<Option target="leetcode"/>
 		</Unit>
-		<Unit filename="D:/leetcode/leetcode-0010.h">
+		<Unit filename="/home/foolcorn/leetcode/leetcode-0010.h">
 			<Option target="leetcode"/>
 		</Unit>
-		<Unit filename="D:/leetcode/leetcode-0011.h">
+		<Unit filename="/home/foolcorn/leetcode/leetcode-0011.h">
 			<Option target="leetcode"/>
 		</Unit>
-		<Unit filename="D:/leetcode/leetcode-0015.h">
+		<Unit filename="/home/foolcorn/leetcode/leetcode-0015.h">
 			<Option target="leetcode"/>
 		</Unit>
-		<Unit filename="D:/leetcode/leetcode-0017.h">
+		<Unit filename="/home/foolcorn/leetcode/leetcode-0017.h">
 			<Option target="leetcode"/>
 		</Unit>
-		<Unit filename="D:/leetcode/leetcode-0018.h">
+		<Unit filename="/home/foolcorn/leetcode/leetcode-0018.h">
 			<Option target="leetcode"/>
 		</Unit>
-		<Unit filename="D:/leetcode/leetcode-0019.h">
+		<Unit filename="/home/foolcorn/leetcode/leetcode-0019.h">
 			<Option target="leetcode"/>
 		</Unit>
-		<Unit filename="D:/leetcode/leetcode-0020.h">
+		<Unit filename="/home/foolcorn/leetcode/leetcode-0020.h">
 			<Option target="leetcode"/>
 		</Unit>
-		<Unit filename="D:/leetcode/leetcode-0021.h">
+		<Unit filename="/home/foolcorn/leetcode/leetcode-0021.h">
 			<Option target="leetcode"/>
 		</Unit>
-		<Unit filename="D:/leetcode/leetcode-0022.h">
+		<Unit filename="/home/foolcorn/leetcode/leetcode-0022.h">
 			<Option target="leetcode"/>
 		</Unit>
-		<Unit filename="D:/leetcode/leetcode-0023.h">
+		<Unit filename="/home/foolcorn/leetcode/leetcode-0023.h">
 			<Option target="leetcode"/>
 		</Unit>
-		<Unit filename="D:/leetcode/leetcode-0025.h">
+		<Unit filename="/home/foolcorn/leetcode/leetcode-0025.h">
 			<Option target="leetcode"/>
 		</Unit>
-		<Unit filename="D:/leetcode/leetcode-0026.h">
+		<Unit filename="/home/foolcorn/leetcode/leetcode-0026.h">
 			<Option target="leetcode"/>
 		</Unit>
-		<Unit filename="D:/leetcode/leetcode-0027.h">
+		<Unit filename="/home/foolcorn/leetcode/leetcode-0027.h">
 			<Option target="leetcode"/>
 		</Unit>
-		<Unit filename="D:/leetcode/leetcode-0028.h">
+		<Unit filename="/home/foolcorn/leetcode/leetcode-0028.h">
 			<Option target="leetcode"/>
 		</Unit>
-		<Unit filename="D:/leetcode/leetcode-0034.h">
+		<Unit filename="/home/foolcorn/leetcode/leetcode-0034.h">
 			<Option target="leetcode"/>
 		</Unit>
-		<Unit filename="D:/leetcode/leetcode-0039.h">
+		<Unit filename="/home/foolcorn/leetcode/leetcode-0039.h">
 			<Option target="leetcode"/>
 		</Unit>
-		<Unit filename="D:/leetcode/leetcode-0040.h">
+		<Unit filename="/home/foolcorn/leetcode/leetcode-0040.h">
 			<Option target="leetcode"/>
 		</Unit>
-		<Unit filename="D:/leetcode/leetcode-0042.h">
+		<Unit filename="/home/foolcorn/leetcode/leetcode-0042.h">
 			<Option target="leetcode"/>
 		</Unit>
-		<Unit filename="D:/leetcode/leetcode-0046.h">
+		<Unit filename="/home/foolcorn/leetcode/leetcode-0046.h">
 			<Option target="leetcode"/>
 		</Unit>
-		<Unit filename="D:/leetcode/leetcode-0047.h">
+		<Unit filename="/home/foolcorn/leetcode/leetcode-0047.h">
 			<Option target="leetcode"/>
 		</Unit>
-		<Unit filename="D:/leetcode/leetcode-0048.h">
+		<Unit filename="/home/foolcorn/leetcode/leetcode-0048.h">
 			<Option target="leetcode"/>
 		</Unit>
-		<Unit filename="D:/leetcode/leetcode-0051.h">
+		<Unit filename="/home/foolcorn/leetcode/leetcode-0051.h">
 			<Option target="leetcode"/>
 		</Unit>
-		<Unit filename="D:/leetcode/leetcode-0053.h">
+		<Unit filename="/home/foolcorn/leetcode/leetcode-0053.h">
 			<Option target="leetcode"/>
 		</Unit>
-		<Unit filename="D:/leetcode/leetcode-0054.h">
+		<Unit filename="/home/foolcorn/leetcode/leetcode-0054.h">
 			<Option target="leetcode"/>
 		</Unit>
-		<Unit filename="D:/leetcode/leetcode-0056.h">
+		<Unit filename="/home/foolcorn/leetcode/leetcode-0056.h">
 			<Option target="leetcode"/>
 		</Unit>
-		<Unit filename="D:/leetcode/leetcode-0059.h">
+		<Unit filename="/home/foolcorn/leetcode/leetcode-0059.h">
 			<Option target="leetcode"/>
 		</Unit>
-		<Unit filename="D:/leetcode/leetcode-0064.h">
+		<Unit filename="/home/foolcorn/leetcode/leetcode-0064.h">
 			<Option target="leetcode"/>
 		</Unit>
-		<Unit filename="D:/leetcode/leetcode-0072.h">
+		<Unit filename="/home/foolcorn/leetcode/leetcode-0072.h">
 			<Option target="leetcode"/>
 		</Unit>
-		<Unit filename="D:/leetcode/leetcode-0076.h">
+		<Unit filename="/home/foolcorn/leetcode/leetcode-0076.h">
 			<Option target="leetcode"/>
 		</Unit>
-		<Unit filename="D:/leetcode/leetcode-0077.h">
+		<Unit filename="/home/foolcorn/leetcode/leetcode-0077.h">
 			<Option target="leetcode"/>
 		</Unit>
-		<Unit filename="D:/leetcode/leetcode-0078.h">
+		<Unit filename="/home/foolcorn/leetcode/leetcode-0078.h">
 			<Option target="leetcode"/>
 		</Unit>
-		<Unit filename="D:/leetcode/leetcode-0083.h">
+		<Unit filename="/home/foolcorn/leetcode/leetcode-0083.h">
 			<Option target="leetcode"/>
 		</Unit>
-		<Unit filename="D:/leetcode/leetcode-0090.h">
+		<Unit filename="/home/foolcorn/leetcode/leetcode-0090.h">
 			<Option target="leetcode"/>
 		</Unit>
-		<Unit filename="D:/leetcode/leetcode-0092.h">
+		<Unit filename="/home/foolcorn/leetcode/leetcode-0092.h">
 			<Option target="leetcode"/>
 		</Unit>
-		<Unit filename="D:/leetcode/leetcode-0095.h">
+		<Unit filename="/home/foolcorn/leetcode/leetcode-0095.h">
 			<Option target="leetcode"/>
 		</Unit>
-		<Unit filename="D:/leetcode/leetcode-0096.h">
+		<Unit filename="/home/foolcorn/leetcode/leetcode-0096.h">
 			<Option target="leetcode"/>
 		</Unit>
-		<Unit filename="D:/leetcode/leetcode-0098.h">
+		<Unit filename="/home/foolcorn/leetcode/leetcode-0098.h">
 			<Option target="leetcode"/>
 		</Unit>
-		<Unit filename="D:/leetcode/leetcode-0104.h">
+		<Unit filename="/home/foolcorn/leetcode/leetcode-0104.h">
 			<Option target="leetcode"/>
 		</Unit>
-		<Unit filename="D:/leetcode/leetcode-0105.h">
+		<Unit filename="/home/foolcorn/leetcode/leetcode-0105.h">
 			<Option target="leetcode"/>
 		</Unit>
-		<Unit filename="D:/leetcode/leetcode-0106.h">
+		<Unit filename="/home/foolcorn/leetcode/leetcode-0106.h">
 			<Option target="leetcode"/>
 		</Unit>
-		<Unit filename="D:/leetcode/leetcode-0111.h">
+		<Unit filename="/home/foolcorn/leetcode/leetcode-0111.h">
 			<Option target="leetcode"/>
 		</Unit>
-		<Unit filename="D:/leetcode/leetcode-0114.h">
+		<Unit filename="/home/foolcorn/leetcode/leetcode-0114.h">
 			<Option target="leetcode"/>
 		</Unit>
-		<Unit filename="D:/leetcode/leetcode-0116.h">
+		<Unit filename="/home/foolcorn/leetcode/leetcode-0116.h">
 			<Option target="leetcode"/>
 		</Unit>
-		<Unit filename="D:/leetcode/leetcode-0121.h">
+		<Unit filename="/home/foolcorn/leetcode/leetcode-0121.h">
 			<Option target="leetcode"/>
 		</Unit>
-		<Unit filename="D:/leetcode/leetcode-0122.h">
+		<Unit filename="/home/foolcorn/leetcode/leetcode-0122.h">
 			<Option target="leetcode"/>
 		</Unit>
-		<Unit filename="D:/leetcode/leetcode-0123.h">
+		<Unit filename="/home/foolcorn/leetcode/leetcode-0123.h">
 			<Option target="leetcode"/>
 		</Unit>
-		<Unit filename="D:/leetcode/leetcode-0124.h">
+		<Unit filename="/home/foolcorn/leetcode/leetcode-0124.h">
 			<Option target="leetcode"/>
 		</Unit>
-		<Unit filename="D:/leetcode/leetcode-0130.h">
+		<Unit filename="/home/foolcorn/leetcode/leetcode-0130.h">
 			<Option target="leetcode"/>
 		</Unit>
-		<Unit filename="D:/leetcode/leetcode-0141.h">
+		<Unit filename="/home/foolcorn/leetcode/leetcode-0141.h">
 			<Option target="leetcode"/>
 		</Unit>
-		<Unit filename="D:/leetcode/leetcode-0142.h">
+		<Unit filename="/home/foolcorn/leetcode/leetcode-0142.h">
 			<Option target="leetcode"/>
 		</Unit>
-		<Unit filename="D:/leetcode/leetcode-0144.h">
+		<Unit filename="/home/foolcorn/leetcode/leetcode-0144.h">
 			<Option target="leetcode"/>
 		</Unit>
-		<Unit filename="D:/leetcode/leetcode-0146.h">
+		<Unit filename="/home/foolcorn/leetcode/leetcode-0146.h">
 			<Option target="leetcode"/>
 		</Unit>
-		<Unit filename="D:/leetcode/leetcode-0160.h">
+		<Unit filename="/home/foolcorn/leetcode/leetcode-0160.h">
 			<Option target="leetcode"/>
 		</Unit>
-		<Unit filename="D:/leetcode/leetcode-0167.h">
+		<Unit filename="/home/foolcorn/leetcode/leetcode-0167.h">
 			<Option target="leetcode"/>
 		</Unit>
-		<Unit filename="D:/leetcode/leetcode-0188.h">
+		<Unit filename="/home/foolcorn/leetcode/leetcode-0188.h">
 			<Option target="leetcode"/>
 		</Unit>
-		<Unit filename="D:/leetcode/leetcode-0198.h">
+		<Unit filename="/home/foolcorn/leetcode/leetcode-0198.h">
 			<Option target="leetcode"/>
 		</Unit>
-		<Unit filename="D:/leetcode/leetcode-0200.h">
+		<Unit filename="/home/foolcorn/leetcode/leetcode-0200.h">
 			<Option target="leetcode"/>
 		</Unit>
-		<Unit filename="D:/leetcode/leetcode-0206.h">
+		<Unit filename="/home/foolcorn/leetcode/leetcode-0206.h">
 			<Option target="leetcode"/>
 		</Unit>
-		<Unit filename="D:/leetcode/leetcode-0207.h">
+		<Unit filename="/home/foolcorn/leetcode/leetcode-0207.h">
 			<Option target="leetcode"/>
 		</Unit>
-		<Unit filename="D:/leetcode/leetcode-0208.h">
+		<Unit filename="/home/foolcorn/leetcode/leetcode-0208.h">
 			<Option target="leetcode"/>
 		</Unit>
-		<Unit filename="D:/leetcode/leetcode-0210.h">
+		<Unit filename="/home/foolcorn/leetcode/leetcode-0210.h">
 			<Option target="leetcode"/>
 		</Unit>
-		<Unit filename="D:/leetcode/leetcode-0213.h">
+		<Unit filename="/home/foolcorn/leetcode/leetcode-0213.h">
 			<Option target="leetcode"/>
 		</Unit>
-		<Unit filename="D:/leetcode/leetcode-0215.h">
+		<Unit filename="/home/foolcorn/leetcode/leetcode-0215.h">
 			<Option target="leetcode"/>
 		</Unit>
-		<Unit filename="D:/leetcode/leetcode-0222.h">
+		<Unit filename="/home/foolcorn/leetcode/leetcode-0222.h">
 			<Option target="leetcode"/>
 		</Unit>
-		<Unit filename="D:/leetcode/leetcode-0226.h">
+		<Unit filename="/home/foolcorn/leetcode/leetcode-0226.h">
 			<Option target="leetcode"/>
 		</Unit>
-		<Unit filename="D:/leetcode/leetcode-0227.h">
+		<Unit filename="/home/foolcorn/leetcode/leetcode-0227.h">
 			<Option target="leetcode"/>
 		</Unit>
-		<Unit filename="D:/leetcode/leetcode-0230.h">
+		<Unit filename="/home/foolcorn/leetcode/leetcode-0230.h">
 			<Option target="leetcode"/>
 		</Unit>
-		<Unit filename="D:/leetcode/leetcode-0234.h">
+		<Unit filename="/home/foolcorn/leetcode/leetcode-0234.h">
 			<Option target="leetcode"/>
 		</Unit>
-		<Unit filename="D:/leetcode/leetcode-0235.h">
+		<Unit filename="/home/foolcorn/leetcode/leetcode-0235.h">
 			<Option target="leetcode"/>
 		</Unit>
-		<Unit filename="D:/leetcode/leetcode-0236.h">
+		<Unit filename="/home/foolcorn/leetcode/leetcode-0236.h">
 			<Option target="leetcode"/>
 		</Unit>
-		<Unit filename="D:/leetcode/leetcode-0239.h">
+		<Unit filename="/home/foolcorn/leetcode/leetcode-0239.h">
 			<Option target="leetcode"/>
 		</Unit>
-		<Unit filename="D:/leetcode/leetcode-0241.h">
+		<Unit filename="/home/foolcorn/leetcode/leetcode-0241.h">
 			<Option target="leetcode"/>
 		</Unit>
-		<Unit filename="D:/leetcode/leetcode-0253.h">
+		<Unit filename="/home/foolcorn/leetcode/leetcode-0253.h">
 			<Option target="leetcode"/>
 		</Unit>
-		<Unit filename="D:/leetcode/leetcode-0261.h">
+		<Unit filename="/home/foolcorn/leetcode/leetcode-0261.h">
 			<Option target="leetcode"/>
 		</Unit>
-		<Unit filename="D:/leetcode/leetcode-0277.h">
+		<Unit filename="/home/foolcorn/leetcode/leetcode-0277.h">
 			<Option target="leetcode"/>
 		</Unit>
-		<Unit filename="D:/leetcode/leetcode-0283.h">
+		<Unit filename="/home/foolcorn/leetcode/leetcode-0283.h">
 			<Option target="leetcode"/>
 		</Unit>
-		<Unit filename="D:/leetcode/leetcode-0297.h">
+		<Unit filename="/home/foolcorn/leetcode/leetcode-0297.h">
 			<Option target="leetcode"/>
 		</Unit>
-		<Unit filename="D:/leetcode/leetcode-0300.h">
+		<Unit filename="/home/foolcorn/leetcode/leetcode-0300.h">
 			<Option target="leetcode"/>
 		</Unit>
-		<Unit filename="D:/leetcode/leetcode-0303.h">
+		<Unit filename="/home/foolcorn/leetcode/leetcode-0303.h">
 			<Option target="leetcode"/>
 		</Unit>
-		<Unit filename="D:/leetcode/leetcode-0304.h">
+		<Unit filename="/home/foolcorn/leetcode/leetcode-0304.h">
 			<Option target="leetcode"/>
 		</Unit>
-		<Unit filename="D:/leetcode/leetcode-0309.h">
+		<Unit filename="/home/foolcorn/leetcode/leetcode-0309.h">
 			<Option target="leetcode"/>
 		</Unit>
-		<Unit filename="D:/leetcode/leetcode-0310.h">
+		<Unit filename="/home/foolcorn/leetcode/leetcode-0310.h">
 			<Option target="leetcode"/>
 		</Unit>
-		<Unit filename="D:/leetcode/leetcode-0315.h">
+		<Unit filename="/home/foolcorn/leetcode/leetcode-0315.h">
 			<Option target="leetcode"/>
 		</Unit>
-		<Unit filename="D:/leetcode/leetcode-0316.h">
+		<Unit filename="/home/foolcorn/leetcode/leetcode-0316.h">
 			<Option target="leetcode"/>
 		</Unit>
-		<Unit filename="D:/leetcode/leetcode-0322.h">
+		<Unit filename="/home/foolcorn/leetcode/leetcode-0322.h">
 			<Option target="leetcode"/>
 		</Unit>
-		<Unit filename="D:/leetcode/leetcode-0323.h">
+		<Unit filename="/home/foolcorn/leetcode/leetcode-0323.h">
 			<Option target="leetcode"/>
 		</Unit>
-		<Unit filename="D:/leetcode/leetcode-0327.h">
+		<Unit filename="/home/foolcorn/leetcode/leetcode-0327.h">
 			<Option target="leetcode"/>
 		</Unit>
-		<Unit filename="D:/leetcode/leetcode-0337.h">
+		<Unit filename="/home/foolcorn/leetcode/leetcode-0337.h">
 			<Option target="leetcode"/>
 		</Unit>
-		<Unit filename="D:/leetcode/leetcode-0341.h">
+		<Unit filename="/home/foolcorn/leetcode/leetcode-0341.h">
 			<Option target="leetcode"/>
 		</Unit>
-		<Unit filename="D:/leetcode/leetcode-0344.h">
+		<Unit filename="/home/foolcorn/leetcode/leetcode-0344.h">
 			<Option target="leetcode"/>
 		</Unit>
-		<Unit filename="D:/leetcode/leetcode-0370.h">
+		<Unit filename="/home/foolcorn/leetcode/leetcode-0370.h">
 			<Option target="leetcode"/>
 		</Unit>
-		<Unit filename="D:/leetcode/leetcode-0380.h">
+		<Unit filename="/home/foolcorn/leetcode/leetcode-0380.h">
 			<Option target="leetcode"/>
 		</Unit>
-		<Unit filename="D:/leetcode/leetcode-0410.h">
+		<Unit filename="/home/foolcorn/leetcode/leetcode-0410.h">
 			<Option target="leetcode"/>
 		</Unit>
-		<Unit filename="D:/leetcode/leetcode-0416.h">
+		<Unit filename="/home/foolcorn/leetcode/leetcode-0416.h">
 			<Option target="leetcode"/>
 		</Unit>
-		<Unit filename="D:/leetcode/leetcode-0433.h">
+		<Unit filename="/home/foolcorn/leetcode/leetcode-0433.h">
 			<Option target="leetcode"/>
 		</Unit>
-		<Unit filename="D:/leetcode/leetcode-0438.h">
+		<Unit filename="/home/foolcorn/leetcode/leetcode-0438.h">
 			<Option target="leetcode"/>
 		</Unit>
-		<Unit filename="D:/leetcode/leetcode-0442.h">
+		<Unit filename="/home/foolcorn/leetcode/leetcode-0442.h">
 			<Option target="leetcode"/>
 		</Unit>
-		<Unit filename="D:/leetcode/leetcode-0449.h">
+		<Unit filename="/home/foolcorn/leetcode/leetcode-0449.h">
 			<Option target="leetcode"/>
 		</Unit>
-		<Unit filename="D:/leetcode/leetcode-0450.h">
+		<Unit filename="/home/foolcorn/leetcode/leetcode-0450.h">
 			<Option target="leetcode"/>
 		</Unit>
-		<Unit filename="D:/leetcode/leetcode-0460.h">
+		<Unit filename="/home/foolcorn/leetcode/leetcode-0460.h">
 			<Option target="leetcode"/>
 		</Unit>
-		<Unit filename="D:/leetcode/leetcode-0493.h">
+		<Unit filename="/home/foolcorn/leetcode/leetcode-0493.h">
 			<Option target="leetcode"/>
 		</Unit>
-		<Unit filename="D:/leetcode/leetcode-0496.h">
+		<Unit filename="/home/foolcorn/leetcode/leetcode-0496.h">
 			<Option target="leetcode"/>
 		</Unit>
-		<Unit filename="D:/leetcode/leetcode-0509.h">
+		<Unit filename="/home/foolcorn/leetcode/leetcode-0509.h">
 			<Option target="leetcode"/>
 		</Unit>
-		<Unit filename="D:/leetcode/leetcode-0515.h">
+		<Unit filename="/home/foolcorn/leetcode/leetcode-0515.h">
 			<Option target="leetcode"/>
 		</Unit>
-		<Unit filename="D:/leetcode/leetcode-0518.h">
+		<Unit filename="/home/foolcorn/leetcode/leetcode-0518.h">
 			<Option target="leetcode"/>
 		</Unit>
-		<Unit filename="D:/leetcode/leetcode-0528.h">
+		<Unit filename="/home/foolcorn/leetcode/leetcode-0528.h">
 			<Option target="leetcode"/>
 		</Unit>
-		<Unit filename="D:/leetcode/leetcode-0538.h">
+		<Unit filename="/home/foolcorn/leetcode/leetcode-0538.h">
 			<Option target="leetcode"/>
 		</Unit>
-		<Unit filename="D:/leetcode/leetcode-0543.h">
+		<Unit filename="/home/foolcorn/leetcode/leetcode-0543.h">
 			<Option target="leetcode"/>
 		</Unit>
-		<Unit filename="D:/leetcode/leetcode-0560.h">
+		<Unit filename="/home/foolcorn/leetcode/leetcode-0560.h">
 			<Option target="leetcode"/>
 		</Unit>
-		<Unit filename="D:/leetcode/leetcode-0567.h">
+		<Unit filename="/home/foolcorn/leetcode/leetcode-0567.h">
 			<Option target="leetcode"/>
 		</Unit>
-		<Unit filename="D:/leetcode/leetcode-0583.h">
+		<Unit filename="/home/foolcorn/leetcode/leetcode-0583.h">
 			<Option target="leetcode"/>
 		</Unit>
-		<Unit filename="D:/leetcode/leetcode-0591.h">
+		<Unit filename="/home/foolcorn/leetcode/leetcode-0591.h">
 			<Option target="leetcode"/>
 		</Unit>
-		<Unit filename="D:/leetcode/leetcode-0652.h">
+		<Unit filename="/home/foolcorn/leetcode/leetcode-0652.h">
 			<Option target="leetcode"/>
 		</Unit>
-		<Unit filename="D:/leetcode/leetcode-0654.h">
+		<Unit filename="/home/foolcorn/leetcode/leetcode-0654.h">
 			<Option target="leetcode"/>
 		</Unit>
-		<Unit filename="D:/leetcode/leetcode-0669.h">
+		<Unit filename="/home/foolcorn/leetcode/leetcode-0669.h">
 			<Option target="leetcode"/>
 		</Unit>
-		<Unit filename="D:/leetcode/leetcode-0694.h">
+		<Unit filename="/home/foolcorn/leetcode/leetcode-0694.h">
 			<Option target="leetcode"/>
 		</Unit>
-		<Unit filename="D:/leetcode/leetcode-0695.h">
+		<Unit filename="/home/foolcorn/leetcode/leetcode-0695.h">
 			<Option target="leetcode"/>
 		</Unit>
-		<Unit filename="D:/leetcode/leetcode-0698.h">
+		<Unit filename="/home/foolcorn/leetcode/leetcode-0698.h">
 			<Option target="leetcode"/>
 		</Unit>
-		<Unit filename="D:/leetcode/leetcode-0700.h">
+		<Unit filename="/home/foolcorn/leetcode/leetcode-0700.h">
 			<Option target="leetcode"/>
 		</Unit>
-		<Unit filename="D:/leetcode/leetcode-0701.h">
+		<Unit filename="/home/foolcorn/leetcode/leetcode-0701.h">
 			<Option target="leetcode"/>
 		</Unit>
-		<Unit filename="D:/leetcode/leetcode-0704.h">
+		<Unit filename="/home/foolcorn/leetcode/leetcode-0704.h">
 			<Option target="leetcode"/>
 		</Unit>
-		<Unit filename="D:/leetcode/leetcode-0710.h">
+		<Unit filename="/home/foolcorn/leetcode/leetcode-0710.h">
 			<Option target="leetcode"/>
 		</Unit>
-		<Unit filename="D:/leetcode/leetcode-0712.h">
+		<Unit filename="/home/foolcorn/leetcode/leetcode-0712.h">
 			<Option target="leetcode"/>
 		</Unit>
-		<Unit filename="D:/leetcode/leetcode-0713.h">
+		<Unit filename="/home/foolcorn/leetcode/leetcode-0713.h">
 			<Option target="leetcode"/>
 		</Unit>
-		<Unit filename="D:/leetcode/leetcode-0714.h">
+		<Unit filename="/home/foolcorn/leetcode/leetcode-0714.h">
 			<Option target="leetcode"/>
 		</Unit>
-		<Unit filename="D:/leetcode/leetcode-0739.h">
+		<Unit filename="/home/foolcorn/leetcode/leetcode-0739.h">
 			<Option target="leetcode"/>
 		</Unit>
-		<Unit filename="D:/leetcode/leetcode-0743.h">
+		<Unit filename="/home/foolcorn/leetcode/leetcode-0743.h">
 			<Option target="leetcode"/>
 		</Unit>
-		<Unit filename="D:/leetcode/leetcode-0752.h">
+		<Unit filename="/home/foolcorn/leetcode/leetcode-0752.h">
 			<Option target="leetcode"/>
 		</Unit>
-		<Unit filename="D:/leetcode/leetcode-0773.h">
+		<Unit filename="/home/foolcorn/leetcode/leetcode-0773.h">
 			<Option target="leetcode"/>
 		</Unit>
-		<Unit filename="D:/leetcode/leetcode-0785.h">
+		<Unit filename="/home/foolcorn/leetcode/leetcode-0785.h">
 			<Option target="leetcode"/>
 		</Unit>
-		<Unit filename="D:/leetcode/leetcode-0797.h">
+		<Unit filename="/home/foolcorn/leetcode/leetcode-0797.h">
 			<Option target="leetcode"/>
 		</Unit>
-		<Unit filename="D:/leetcode/leetcode-0870.h">
+		<Unit filename="/home/foolcorn/leetcode/leetcode-0870.h">
 			<Option target="leetcode"/>
 		</Unit>
-		<Unit filename="D:/leetcode/leetcode-0875.h">
+		<Unit filename="/home/foolcorn/leetcode/leetcode-0875.h">
 			<Option target="leetcode"/>
 		</Unit>
-		<Unit filename="D:/leetcode/leetcode-0876.h">
+		<Unit filename="/home/foolcorn/leetcode/leetcode-0876.h">
 			<Option target="leetcode"/>
 		</Unit>
-		<Unit filename="D:/leetcode/leetcode-0886.h">
+		<Unit filename="/home/foolcorn/leetcode/leetcode-0886.h">
 			<Option target="leetcode"/>
 		</Unit>
-		<Unit filename="D:/leetcode/leetcode-0889.h">
+		<Unit filename="/home/foolcorn/leetcode/leetcode-0889.h">
 			<Option target="leetcode"/>
 		</Unit>
-		<Unit filename="D:/leetcode/leetcode-0912.h">
+		<Unit filename="/home/foolcorn/leetcode/leetcode-0912.h">
 			<Option target="leetcode"/>
 		</Unit>
-		<Unit filename="D:/leetcode/leetcode-0913.h">
+		<Unit filename="/home/foolcorn/leetcode/leetcode-0913.h">
 			<Option target="leetcode"/>
 		</Unit>
-		<Unit filename="D:/leetcode/leetcode-0921.h">
+		<Unit filename="/home/foolcorn/leetcode/leetcode-0921.h">
 			<Option target="leetcode"/>
 		</Unit>
-		<Unit filename="D:/leetcode/leetcode-0931.h">
+		<Unit filename="/home/foolcorn/leetcode/leetcode-0931.h">
 			<Option target="leetcode"/>
 		</Unit>
-		<Unit filename="D:/leetcode/leetcode-0933.h">
+		<Unit filename="/home/foolcorn/leetcode/leetcode-0933.h">
 			<Option target="leetcode"/>
 		</Unit>
-		<Unit filename="D:/leetcode/leetcode-0937.h">
+		<Unit filename="/home/foolcorn/leetcode/leetcode-0937.h">
 			<Option target="leetcode"/>
 		</Unit>
-		<Unit filename="D:/leetcode/leetcode-0942.h">
+		<Unit filename="/home/foolcorn/leetcode/leetcode-0942.h">
 			<Option target="leetcode"/>
 		</Unit>
-		<Unit filename="D:/leetcode/leetcode-0944.h">
+		<Unit filename="/home/foolcorn/leetcode/leetcode-0944.h">
 			<Option target="leetcode"/>
 		</Unit>
-		<Unit filename="D:/leetcode/leetcode-0986.h">
+		<Unit filename="/home/foolcorn/leetcode/leetcode-0986.h">
 			<Option target="leetcode"/>
 		</Unit>
-		<Unit filename="D:/leetcode/leetcode-0990.h">
+		<Unit filename="/home/foolcorn/leetcode/leetcode-0990.h">
 			<Option target="leetcode"/>
 		</Unit>
-		<Unit filename="D:/leetcode/leetcode-1011.h">
+		<Unit filename="/home/foolcorn/leetcode/leetcode-1011.h">
 			<Option target="leetcode"/>
 		</Unit>
-		<Unit filename="D:/leetcode/leetcode-1020.h">
+		<Unit filename="/home/foolcorn/leetcode/leetcode-1020.h">
 			<Option target="leetcode"/>
 		</Unit>
-		<Unit filename="D:/leetcode/leetcode-1038.h">
+		<Unit filename="/home/foolcorn/leetcode/leetcode-1038.h">
 			<Option target="leetcode"/>
 		</Unit>
-		<Unit filename="D:/leetcode/leetcode-1081.h">
+		<Unit filename="/home/foolcorn/leetcode/leetcode-1081.h">
 			<Option target="leetcode"/>
 		</Unit>
-		<Unit filename="D:/leetcode/leetcode-1094.h">
+		<Unit filename="/home/foolcorn/leetcode/leetcode-1094.h">
 			<Option target="leetcode"/>
 		</Unit>
-		<Unit filename="D:/leetcode/leetcode-1109.h">
+		<Unit filename="/home/foolcorn/leetcode/leetcode-1109.h">
 			<Option target="leetcode"/>
 		</Unit>
-		<Unit filename="D:/leetcode/leetcode-1135.h">
+		<Unit filename="/home/foolcorn/leetcode/leetcode-1135.h">
 			<Option target="leetcode"/>
 		</Unit>
-		<Unit filename="D:/leetcode/leetcode-1143.h">
+		<Unit filename="/home/foolcorn/leetcode/leetcode-1143.h">
 			<Option target="leetcode"/>
 		</Unit>
-		<Unit filename="D:/leetcode/leetcode-1254.h">
+		<Unit filename="/home/foolcorn/leetcode/leetcode-1254.h">
 			<Option target="leetcode"/>
 		</Unit>
-		<Unit filename="D:/leetcode/leetcode-1288.h">
+		<Unit filename="/home/foolcorn/leetcode/leetcode-1288.h">
 			<Option target="leetcode"/>
 		</Unit>
-		<Unit filename="D:/leetcode/leetcode-1305.h">
+		<Unit filename="/home/foolcorn/leetcode/leetcode-1305.h">
 			<Option target="leetcode"/>
 		</Unit>
-		<Unit filename="D:/leetcode/leetcode-1373.h">
+		<Unit filename="/home/foolcorn/leetcode/leetcode-1373.h">
 			<Option target="leetcode"/>
 		</Unit>
-		<Unit filename="D:/leetcode/leetcode-1514.h">
+		<Unit filename="/home/foolcorn/leetcode/leetcode-1514.h">
 			<Option target="leetcode"/>
 		</Unit>
-		<Unit filename="D:/leetcode/leetcode-1541.h">
+		<Unit filename="/home/foolcorn/leetcode/leetcode-1541.h">
 			<Option target="leetcode"/>
 		</Unit>
-		<Unit filename="D:/leetcode/leetcode-1584.h">
+		<Unit filename="/home/foolcorn/leetcode/leetcode-1584.h">
 			<Option target="leetcode"/>
 		</Unit>
-		<Unit filename="D:/leetcode/leetcode-1631.h">
+		<Unit filename="/home/foolcorn/leetcode/leetcode-1631.h">
 			<Option target="leetcode"/>
 		</Unit>
-		<Unit filename="D:/leetcode/leetcode-1644.h">
+		<Unit filename="/home/foolcorn/leetcode/leetcode-1644.h">
 			<Option target="leetcode"/>
 		</Unit>
-		<Unit filename="D:/leetcode/leetcode-1650.h">
+		<Unit filename="/home/foolcorn/leetcode/leetcode-1650.h">
 			<Option target="leetcode"/>
 		</Unit>
-		<Unit filename="D:/leetcode/leetcode-1676.h">
+		<Unit filename="/home/foolcorn/leetcode/leetcode-1676.h">
 			<Option target="leetcode"/>
 		</Unit>
-		<Unit filename="D:/leetcode/leetcode-1728.h">
+		<Unit filename="/home/foolcorn/leetcode/leetcode-1728.h">
 			<Option target="leetcode"/>
 		</Unit>
-		<Unit filename="D:/leetcode/leetcode-1804.h">
+		<Unit filename="/home/foolcorn/leetcode/leetcode-1804.h">
 			<Option target="leetcode"/>
 		</Unit>
-		<Unit filename="D:/leetcode/leetcode-1823.h">
+		<Unit filename="/home/foolcorn/leetcode/leetcode-1823.h">
 			<Option target="leetcode"/>
 		</Unit>
-		<Unit filename="D:/leetcode/leetcode-1905.h">
+		<Unit filename="/home/foolcorn/leetcode/leetcode-1905.h">
 			<Option target="leetcode"/>
 		</Unit>
-		<Unit filename="D:/leetcode/main.cpp">
+		<Unit filename="/home/foolcorn/leetcode/main.cpp">
 			<Option target="leetcode"/>
 		</Unit>
-		<Unit filename="D:/leetcode/CMakeLists.txt">
+		<Unit filename="/home/foolcorn/leetcode/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
 	</Project>
