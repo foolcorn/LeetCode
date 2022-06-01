@@ -1,5 +1,5 @@
 #include "utils.h"
-// *最长回文子文
+// *最长回文子串
 class Solution {
 public:
     string longestPalindrome(string s) {

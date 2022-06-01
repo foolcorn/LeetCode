@@ -9,7 +9,6 @@ public:
         return traceback(s,p,0,0);
     }
     bool traceback(string s, string p,int i, int j){
-        cout<<i<<" "<<j<<endl;
         int m = s.size();
         int n = p.size();
         if(j==n){

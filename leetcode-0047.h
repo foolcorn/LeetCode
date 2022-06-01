@@ -27,7 +27,7 @@ public:
                 continue;
             }
             //-如果没使用的要判断重复元素的使用，要一个个used->true，不能用后面的重复元素
-            if(i>0 && gnums[i]==gnums[i-1] && used[i-1]){
+            if(i>0 && gnums[i]==gnums[i-1] && !used[i-1]){
                 continue;
             }
             temp.push_back(gnums[i]);

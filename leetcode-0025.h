@@ -6,6 +6,8 @@ class Solution {
     ListNode* newtail;
     bool sign = true;
 public:
+    //-理清思路，怎么写递归，k个一组，后序递归，从后往前，返回新的head，然后让当前组的尾巴（反转前的头部）连上new head
+    //-大循环就判定一下满不满k个，满k个就反转k个，返回新的头部（原来的尾巴），旧的头部(新的尾巴)接下一次大循环的返回值
     ListNode* reverseKGroup(ListNode* head, int k) {
         ListNode* newhead = reverseK(head, k);
         if(sign){

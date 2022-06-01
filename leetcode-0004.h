@@ -14,7 +14,6 @@ public:
         //-先判断元素数量是单数还是双数
         if(size%2==0){
             return (findTopK(size/2)+findTopK(size/2+1))/2.0;
-
         }else{
             return findTopK(size/2+1);
         }

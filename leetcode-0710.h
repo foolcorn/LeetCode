@@ -6,8 +6,6 @@ private:
     unordered_map<int,int> mmap;
     int randrange;
 public:
-    //-思路：关键在于如何能让黑名单里的数字全都排列到队列的最后，这样我们在数组的有效范围内rand一个数返回即可
-    //-一个方法是从前面开始遍历，如果遇到黑名单的数字，就将其映射到后面的非黑名单数字
     //-类似双指针的思维，一个从前往后，一个从后往前
     //-不过需要注意两点例外，一个是右指针的元素如果在黑名单里就跳过，
     Solution(int n, vector<int>& blacklist) {

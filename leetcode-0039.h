@@ -32,6 +32,5 @@ public:
             temp.pop_back();
             acsum-=nums[i];
         }
-
     }
 };
