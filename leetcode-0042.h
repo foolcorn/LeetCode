@@ -9,7 +9,7 @@ public:
         //-维护两个变量，分别为左右各自的maxheight
         int max_height_left = 0;
         int max_height_right = 0;
-        int res;
+        int res = 0;
         while(left<right){
             //-左右更新当前最大高度
             max_height_left = max(max_height_left,height[left]);

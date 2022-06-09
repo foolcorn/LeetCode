@@ -10,6 +10,7 @@ public:
 struct cmp{
     bool operator()(Node lhs, Node rhs){
         return lhs.distance > rhs.distance;
+
     }
 };
 class Solution {

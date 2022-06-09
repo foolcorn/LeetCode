@@ -1,8 +1,7 @@
 #include "utils.h"
-// *给定n，用1-n的n个节点构造所有可能的二叉树并返回
+// *给定n，用1-n的n个节点构造所有可能的BST并返回
 class Solution {
 public:
-
     vector<TreeNode*> generateTrees(int n) {
         vector<int> nodes;
         for (int i = 1; i <= n;++i){

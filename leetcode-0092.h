@@ -1,6 +1,5 @@
 #include "utils.h"
 // * 反转链表2，反转指定区间的链表
-
 class Solution {
     ListNode* new_tail = nullptr;
 public:
@@ -19,7 +18,6 @@ public:
     ListNode* reverseBetween(ListNode* head, int left, int right) {
         //-判断只有一个节点的情况
         if(head->next == nullptr){
-
             return head;
         }
         //-单独判断left==1，也就是从头节点开始反转的情况

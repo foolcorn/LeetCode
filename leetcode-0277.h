@@ -17,7 +17,7 @@ public:
             if(knows(person1,person2)){
                 persons.pop_front();
             }
-                //-如果A不认识B。B或者认识或者不认识A，都可以把B排除
+            //-如果A不认识B。B或者认识或者不认识A，都可以把B排除
             else{
                 persons.pop_back();
             }

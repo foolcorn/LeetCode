@@ -1,5 +1,5 @@
 #include "utils.h"
-// *计算子集
+// *给定nums数组，求其所有子集
 class Solution {
 public:
     vector<vector<int>> subsets(vector<int>& nums) {

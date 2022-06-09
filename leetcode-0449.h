@@ -31,9 +31,11 @@ public:
     }
     //-在构造二叉树的过程中,始终框定一个插入界限
     TreeNode* traceback(deque<int> &nodelist, int min, int max){
+        //-这个baseclass也记一下
         if(nodelist.empty()){
             return nullptr;
         }
+        //-先取当前预备的元素看看是否适合插入
         int value = nodelist.front();
         //-如果当前节点不适合在该位置插入,就递归到下个位置,这个位置就填入nullptr
         if(value>max||value<min){

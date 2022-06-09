@@ -26,7 +26,7 @@ public:
         if(key_to_value.count(key) == 0){
             return -1;
         }
-            //-如果key存在，需要更新访问计数
+        //-如果key存在，需要更新访问计数
         else {
             //-从上个count_to_keylist表中移除
             count_to_keylist[key_to_count[key]].erase(key_to_listit[key]);

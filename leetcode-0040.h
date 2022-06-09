@@ -1,5 +1,5 @@
 #include "utils.h"
-// *从candidates（有重复元素）中找到==target的组合
+// *从candidates（有重复元素）中找到==target的组合（不重复取）
 class Solution {
 private:
     vector<vector<int>> res;

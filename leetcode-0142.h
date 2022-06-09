@@ -17,6 +17,9 @@ public:
         if(fast == nullptr || fast->next== nullptr){
             return nullptr;
         }
+        //-假设环起点距离相遇点为m，则slow走了k步到到相遇点，则slow从头开始走k-m步可以到起点
+        //-而fast从相遇点走k-m步，也能到环起点。
+        //-抽象的话，第一次相遇的时候，k代表了n圈都有可能，但是不管走几圈，-m后都能到环起点。
         //-让其中之一变回头结点,以相同的速度前进,相遇的地方就是环的起始点.
         fast = head;
         while(fast != slow){

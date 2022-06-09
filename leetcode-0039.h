@@ -1,5 +1,5 @@
 #include "utils.h"
-// *无重复元素可重复取
+// *无重复元素可重复取组合
 class Solution {
 private:
     vector<vector<int>> res;

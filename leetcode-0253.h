@@ -20,7 +20,7 @@ public:
         //-双指针
         int sptr = 0;
         int eptr = 0;
-//        while(sptr<startpoints.size()&&eptr<endpoints.size()){
+        //-有点括号匹配的意思了，sptr是左括号，eptr是右括号
         while(sptr<startpoints.size()){
             //-当存在某个会议开始在某个会议结束之前
             if(startpoints[sptr]<endpoints[eptr]){

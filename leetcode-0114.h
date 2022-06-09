@@ -9,7 +9,7 @@ public:
         flatten(root->left);
         flatten(root->right);
         //-使用后序遍历，先把左右两边的子树都打平成链表
-        //-将左子树接在右边
+        //-先保存右子树的副本，将左子树接在右边
         TreeNode* right = root->right;
         root->right = root->left;
         root->left = nullptr;

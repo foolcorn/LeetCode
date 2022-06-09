@@ -21,7 +21,6 @@ public:
         //-如果无重复,插入
         if(string_map.count(series)==0){
             string_map[series] = 1;
-
         }else{
             //-如果正好是第一次重复，插入到res里，不是第一次重复就继续更新map计数，并忽略res
             if(string_map[series] == 1){

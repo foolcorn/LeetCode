@@ -1,9 +1,9 @@
-#include "leetcode-0017.h"
+#include "leetcode-1104.h"
 
 
 int main(){
     Solution S;
-    vector<string> res= S.letterCombinations("23");
+    vector<int> res= S.pathInZigZagTree(13);
     print(res);
     return 0;
 };

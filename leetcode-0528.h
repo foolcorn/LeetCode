@@ -1,10 +1,11 @@
 #include "utils.h"
-// *题目
+// *按权重随机选择，给定w，w[i]指i元素的权重，考虑到在有权重的情况下，如何随机选择出一个元素
 class Solution {
     vector<int> preSum;
 public:
     Solution(vector<int>& w) {
         preSum = vector<int>(w.size()+1,0);
+        //-前缀和数组
         for(int i = 1;i<=w.size(); ++i){
             preSum[i] = preSum[i-1]+w[i-1];
         }
