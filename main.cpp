@@ -1,9 +1,9 @@
-#include "leetcode-1104.h"
+#include "leetcode-0514.h"
 
 
 int main(){
     Solution S;
-    vector<int> res= S.pathInZigZagTree(13);
+    int res= S.findRotateSteps("godding","gd");
     print(res);
     return 0;
 };

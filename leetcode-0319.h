@@ -1,2 +1,8 @@
 #include "utils.h"
-// *题目
+// *灯泡开关
+class Solution {
+public:
+    int bulbSwitch(int n) {
+        return sqrt(n);
+    }
+};

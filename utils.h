@@ -17,6 +17,7 @@
 #include <cstddef>
 #include <list>
 #include <utility>
+#include <climits>
 
 using namespace std;
 
@@ -36,18 +37,23 @@ struct ListNode {
     ListNode(int x) : val(x), next(nullptr) {}
     ListNode(int x, ListNode *next) : val(x), next(next) {}
 };
+template<class T> void print(T t){
+    cout<<t<<endl;
+}
 
-void print(vector<int> res){
+template <> void print(vector<int> res){
     for(auto& ele:res){
         cout<<ele<<" ";
     }
     cout<<endl;
 }
-void print(vector<string> res){
+template<>void print(vector<string> res){
     for(auto& ele:res){
         cout<<ele<<" ";
     }
     cout<<endl;
 }
+
+
 
 #endif //LEETCODE_UTILS_H

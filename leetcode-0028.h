@@ -5,6 +5,9 @@ public:
     int strStr(string haystack, string needle) {
         int length1 = (int)haystack.size();
         int length2 = (int)needle.size();
+        if(length1 < length2){
+            return -1;
+        }
         //-状态机
         vector<vector<int>> status(length2,vector<int>(256,0));
         //-初始状态转移
@@ -29,7 +32,7 @@ public:
         //-用状态机进行匹配
         int j = 0;
         for(int i = 0;i<length1;++i){
-            j = status[j][i];
+            j = status[j][haystack[i]];
             if(j == length2){
                 return i-length2+1;
             }

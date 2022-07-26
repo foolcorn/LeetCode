@@ -1,8 +1,33 @@
 #include "utils.h"
 // *k个一组反转链表
+class Solution {
+public:
+    ListNode* reverseKGroup(ListNode* head, int k) {
+        ListNode* temp = head;
+        for(int i = 0; i < k-1; i++){
+            if(temp == nullptr){
+                return head;
+            }
+            temp = temp->next;
+        }
+        ListNode* new_head = reverseK(head,k-1);
+        head->next = reverseKGroup(temp->next,k);
+        return new_head;
+    }
+    ListNode* reverseK(ListNode* node, int k){
+        if(k == 0){
+            return node;
+        }
+        ListNode* next_node = node->next;
+        ListNode* new_head = reverseK(next_node,k-1);
+        next_node->next = node;
+        node->next = nullptr;
+        return new_head;
+    }
+};
 // -旧方法，把不满k个不反转返回旧头和满k个反转并返回新头的判定结合在一个reverseK里了，
 // -其实把这个判定写在reverseKgroup里会更好看，但是效率会差点。
-class Solution {
+class Solution_old {
     ListNode* newtail;
     bool sign = true;
 public:
