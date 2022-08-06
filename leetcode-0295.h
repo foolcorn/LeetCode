@@ -26,7 +26,6 @@ public:
         }
         //-如果up太大,pop给down
         if(up.size()>down.size()+1){
-            cout<<"hh";
             down.push(up.top());
             up.pop();
         }

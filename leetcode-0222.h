@@ -23,7 +23,7 @@ public:
         if(heightleft == heightright){
             return pow(2,heightleft) - 1;
         }else{
-            return traceback(root->left)+traceback(root->right);
+            return traceback(root->left)+traceback(root->right)+1;
         }
     }
 };

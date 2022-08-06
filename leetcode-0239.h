@@ -32,7 +32,7 @@ public:
             temp = max(temp,nums[i]);
         }
         vector<int> res = {temp};
-        //-不断往右滑动窗口，right从k开始已经相当于滑动了一次窗口
+        //-不断往右滑动窗口，right从k开始，已经相当于滑动了一次窗口
         while(right!=nums.size()){
             int newele = nums[right];
             //-真正维护窗口的其实是left和right指针,利用left指针和window的最大元素比较

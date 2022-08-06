@@ -4,7 +4,7 @@
 class Solution {
 public:
     //-思路：我有个很有意思的想法，使用双端队列来存所有人
-    //-每次取一头一尾，使用konws排除肯定不是名人的人，pop到最后只剩一个人的时候，最后判断一次该人和其它的人的关系得到结果
+    //-每次取一头一尾，使用knows排除肯定不是名人的人，pop到最后只剩一个人的时候，最后判断一次该人和其它的人的关系得到结果
     int findCelebrity(int n) {
         deque<int>persons;
         for(int i = 0;i<n;++i){
