@@ -21,9 +21,9 @@ public:
                 ++left;
             } else{
                 //-temp加入元素,并略过所有重复元素
-                temp.push_back({gnums[left++],gnums[right++]});
-                while(left<size&&gnums[left]==gnums[left-1]){++left}
-                while(right>=0&&gnums[right]==gnums[right+1]){--right}
+                temp.push_back({gnums[left++],gnums[right--]});
+                while(left<size&&gnums[left]==gnums[left-1]){++left;}
+                while(right>=0&&gnums[right]==gnums[right+1]){--right;}
                 if(left>=right){
                     break;
                 }

@@ -11,6 +11,7 @@ public:
             temp = temp->next;
         }
         ListNode* new_head = reverseK(head,k-1);
+        //-原来的head变成了尾巴
         head->next = reverseKGroup(temp->next,k);
         return new_head;
     }

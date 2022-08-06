@@ -27,7 +27,7 @@ public:
             if(traceback(board,i,j+1)){
                 return true;
             }
-            board[i][j] = '.';
+            board[i][j] = '.';//-这行代码可以省略
         }
         return false;
     }
