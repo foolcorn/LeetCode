@@ -33,4 +33,12 @@ add_executable(leetcode
         leetcode-0234.h leetcode-0048.h leetcode-0054.h leetcode-0059.h leetcode-0528.h leetcode-0410.h
         leetcode-0380.h leetcode-0710.h leetcode-0316.h leetcode-1081.h leetcode-0912.h
         leetcode-0315.h leetcode-0493.h leetcode-0327.h leetcode-0341.h leetcode-0236.h leetcode-1644.h
-        leetcode-1650.h leetcode-1676.h leetcode-0235.h leetcode-0222.h leetcode-0208.h leetcode-1804.h leetcode-0224.h leetcode-0772.h leetcode-0648.h leetcode-0211.h leetcode-0677.h leetcode-0295.h leetcode-0503.h leetcode-1104.h leetcode-1845.h leetcode-0662.h leetcode-0703.h leetcode-0225.h leetcode-0232.h leetcode-0355.h leetcode-0895.h leetcode-0435.h leetcode-0452.h leetcode-1024.h leetcode-0055.h leetcode-0045.h leetcode-0134.h leetcode-0191.h leetcode-0231.h leetcode-0136.h leetcode-0268.h leetcode-0312.h leetcode-0494.h leetcode-0172.h leetcode-0793.h leetcode-0204.h leetcode-0382.h leetcode-0398.h leetcode-0174.h leetcode-0514.h leetcode-0887.h leetcode-0787.h leetcode-0877.h leetcode-0651.h leetcode-0037.h leetcode-0372.h leetcode-0645.h leetcode-0292.h leetcode-0319.h)
+        leetcode-1650.h leetcode-1676.h leetcode-0235.h leetcode-0222.h leetcode-0208.h leetcode-1804.h
+        leetcode-0224.h leetcode-0772.h leetcode-0648.h leetcode-0211.h leetcode-0677.h leetcode-0295.h
+        leetcode-0503.h leetcode-1104.h leetcode-1845.h leetcode-0662.h leetcode-0703.h leetcode-0225.h
+        leetcode-0232.h leetcode-0355.h leetcode-0895.h leetcode-0435.h leetcode-0452.h leetcode-1024.h
+        leetcode-0055.h leetcode-0045.h leetcode-0134.h leetcode-0191.h leetcode-0231.h leetcode-0136.h
+        leetcode-0268.h leetcode-0312.h leetcode-0494.h leetcode-0172.h leetcode-0793.h leetcode-0204.h
+        leetcode-0382.h leetcode-0398.h leetcode-0174.h leetcode-0514.h leetcode-0887.h leetcode-0787.h
+        leetcode-0877.h leetcode-0651.h leetcode-0037.h leetcode-0372.h leetcode-0645.h leetcode-0292.h
+        leetcode-0319.h leetcode-0008.h leetcode-0070.h leetcode-0033.h leetcode-0007.h leetcode-0871.h)

@@ -39,3 +39,42 @@ public:
         random_shuffle(nums);
     }
 };
+
+class Solution {
+    vector<int> temp;
+public:
+    //-实现一个归并排序
+    vector<int> sortArray(vector<int>& nums) {
+        temp = vector<int>(nums.size(),0);
+        sort(nums,0,nums.size()-1);
+        return nums;
+    }
+    void sort(vector<int>& nums,int low, int high){
+        if(low == high){
+            return;
+        }
+        int mid = low+(high-low)/2;
+        sort(nums, low, mid);
+        sort(nums, mid+1, high);
+        merge(nums, low, mid, high);
+    }
+
+    void merge(vector<int>& nums,int low, int mid,int high){
+        for (int i = low; i <= high; i++) {
+            temp[i] = nums[i];
+        }
+        int left = low;
+        int right = mid+1;
+        for (int i = low; i <= high; i++) {
+            if(left == mid+1){
+                nums[i] = temp[right++];
+            }else if(right == high+1){
+                nums[i] = temp[left++];
+            }else if (temp[left]>temp[right]) {
+                nums[i] = temp[right++];
+            }else{
+                nums[i] = temp[left++];
+            }
+        }
+    }
+};
