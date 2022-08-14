@@ -41,4 +41,4 @@ add_executable(leetcode
         leetcode-0268.h leetcode-0312.h leetcode-0494.h leetcode-0172.h leetcode-0793.h leetcode-0204.h
         leetcode-0382.h leetcode-0398.h leetcode-0174.h leetcode-0514.h leetcode-0887.h leetcode-0787.h
         leetcode-0877.h leetcode-0651.h leetcode-0037.h leetcode-0372.h leetcode-0645.h leetcode-0292.h
-        leetcode-0319.h leetcode-0008.h leetcode-0070.h leetcode-0033.h leetcode-0007.h leetcode-0871.h)
+        leetcode-0319.h leetcode-0008.h leetcode-0070.h leetcode-0033.h leetcode-0007.h leetcode-0871.h leetcode-0009.h leetcode-0014.h leetcode-0169.h leetcode-0088.h leetcode-0148.h leetcode-0155.h leetcode-0151.h leetcode-0120.h leetcode-0347.h leetcode-0237.h leetcode-0165.h)
