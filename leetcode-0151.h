@@ -4,26 +4,27 @@ class Solution {
 public:
     string reverseWords(string s) {
         //-先反转整个字符串
-        int left = 0;
-        int right = s.size()-1;
-        while(left < right) {
-            swap(s[left++],s[right--]);
-        }
-        int i =0;
-        int start = 0;
-        //-逐个翻转单词
-        while(i<s.size()) {
-            if(s[i] == ' ' || i == s.size()-1) {
-                //-翻转单词
-                left = start;
-                right = s[i] == ' '?i-1:i;
-                while(left < right) {
-                    swap(s[left++],s[right--]);
-                }
-                start = i+1;
+        reverse(s.begin(),s.end());
+
+        int n = s.size();
+        int idx = 0;
+        for (int start = 0; start < n; ++start) {
+            if (s[start] != ' ') {
+                // 填一个空白字符然后将idx移动到下一个单词的开头位置
+                if (idx != 0) s[idx++] = ' ';
+
+                // 循环遍历至单词的末尾
+                int end = start;
+                while (end < n && s[end] != ' ') s[idx++] = s[end++];
+
+                // 反转整个单词
+                reverse(s.begin() + idx - (end - start), s.begin() + idx);
+
+                // 更新start，去找下一个单词
+                start = end;
             }
-            ++i;
         }
+        s.erase(s.begin() + idx, s.end());
         return s;
     }
 };

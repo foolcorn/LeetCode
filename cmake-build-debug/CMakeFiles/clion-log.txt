@@ -1,4 +1,4 @@
-找不到 CMake 可执行文件: /usr/bin/cmake 配置 禁用配置文件
-
-无法获取编译器信息:
-	无法创建临时文件
+"C:\Program Files\JetBrains\CLion 2021.1\bin\cmake\win\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - MinGW Makefiles" E:\myprogram\leetcode
+-- Configuring done
+-- Generating done
+-- Build files have been written to: E:/myprogram/leetcode/cmake-build-debug
