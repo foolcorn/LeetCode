@@ -3,26 +3,26 @@
 class Solution {
 public:
     ListNode* deleteDuplicates(ListNode* head) {
-        if (!head) {
-            return head;
-        }
-
-        ListNode* dummy = new ListNode(0, head);
-
-        ListNode* cur = dummy;
-        while (cur->next && cur->next->next) {
-            if (cur->next->val == cur->next->next->val) {
-                int x = cur->next->val;
-                while (cur->next && cur->next->val == x) {
-                    cur->next = cur->next->next;
+        ListNode*dummy = new ListNode;
+        dummy->next = nullptr;
+        ListNode*p1 = dummy;
+        ListNode*p2 = head;
+        while(p2!=nullptr) {
+            if(p2->next!=nullptr&&p2->next->val != p2->val){
+                p1->next = p2;
+                p1 = p1->next;
+                p2 = p2->next;
+                p1->next = nullptr;
+            }else if(p2->next == nullptr){
+                p1->next = p2;
+                p2 = p2->next;
+            }else{
+                while(p2->next != nullptr&&p2->next->val == p2->val){
+                    p2 = p2->next;
                 }
-            }
-            else {
-                cur = cur->next;
+                p2 = p2->next;
             }
         }
-
         return dummy->next;
     }
 };
-

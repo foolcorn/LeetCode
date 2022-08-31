@@ -54,6 +54,4 @@ template<>void print(vector<string> res){
     cout<<endl;
 }
 
-
-
 #endif //LEETCODE_UTILS_H
