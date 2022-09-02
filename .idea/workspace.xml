@@ -1,0 +1,563 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
+    <generated>
+      <config projectName="leetcode" targetName="leetcode" />
+    </generated>
+  </component>
+  <component name="CMakeSettings">
+    <configurations>
+      <configuration PROFILE_NAME="Debug" ENABLED="true" CONFIG_NAME="Debug" />
+    </configurations>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="397ff5d9-c1a4-474c-8a2b-941ba02fb8a7" name="变更" comment="">
+      <change afterPath="$PROJECT_DIR$/leetcode1-100/leetcode-0001.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode1-100/leetcode-0002.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode1-100/leetcode-0003.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode1-100/leetcode-0004.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode1-100/leetcode-0005.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode1-100/leetcode-0007.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode1-100/leetcode-0008.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode1-100/leetcode-0009.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode1-100/leetcode-0010.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode1-100/leetcode-0011.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode1-100/leetcode-0014.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode1-100/leetcode-0015.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode1-100/leetcode-0017.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode1-100/leetcode-0018.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode1-100/leetcode-0019.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode1-100/leetcode-0020.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode1-100/leetcode-0021.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode1-100/leetcode-0022.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode1-100/leetcode-0023.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode1-100/leetcode-0025.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode1-100/leetcode-0026.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode1-100/leetcode-0027.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode1-100/leetcode-0028.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode1-100/leetcode-0033.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode1-100/leetcode-0034.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode1-100/leetcode-0037.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode1-100/leetcode-0039.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode1-100/leetcode-0040.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode1-100/leetcode-0042.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode1-100/leetcode-0045.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode1-100/leetcode-0046.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode1-100/leetcode-0047.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode1-100/leetcode-0048.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode1-100/leetcode-0051.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode1-100/leetcode-0053.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode1-100/leetcode-0054.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode1-100/leetcode-0055.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode1-100/leetcode-0056.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode1-100/leetcode-0059.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode1-100/leetcode-0064.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode1-100/leetcode-0070.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode1-100/leetcode-0072.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode1-100/leetcode-0076.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode1-100/leetcode-0077.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode1-100/leetcode-0078.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode1-100/leetcode-0079.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode1-100/leetcode-0082.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode1-100/leetcode-0083.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode1-100/leetcode-0088.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode1-100/leetcode-0090.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode1-100/leetcode-0092.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode1-100/leetcode-0093.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode1-100/leetcode-0095.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode1-100/leetcode-0096.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode1-100/leetcode-0098.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode101-200/leetcode-0103.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode101-200/leetcode-0104.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode101-200/leetcode-0105.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode101-200/leetcode-0106.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode101-200/leetcode-0111.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode101-200/leetcode-0114.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode101-200/leetcode-0116.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode101-200/leetcode-0120.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode101-200/leetcode-0121.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode101-200/leetcode-0122.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode101-200/leetcode-0123.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode101-200/leetcode-0124.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode101-200/leetcode-0130.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode101-200/leetcode-0134.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode101-200/leetcode-0136.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode101-200/leetcode-0141.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode101-200/leetcode-0142.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode101-200/leetcode-0143.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode101-200/leetcode-0144.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode101-200/leetcode-0146.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode101-200/leetcode-0148.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode101-200/leetcode-0151.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode101-200/leetcode-0155.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode101-200/leetcode-0160.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode101-200/leetcode-0165.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode101-200/leetcode-0167.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode101-200/leetcode-0169.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode101-200/leetcode-0172.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode101-200/leetcode-0174.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode101-200/leetcode-0188.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode101-200/leetcode-0191.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode101-200/leetcode-0198.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode101-200/leetcode-0200.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode201-300/leetcode-0204.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode201-300/leetcode-0206.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode201-300/leetcode-0207.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode201-300/leetcode-0208.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode201-300/leetcode-0210.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode201-300/leetcode-0211.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode201-300/leetcode-0213.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode201-300/leetcode-0215.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode201-300/leetcode-0217.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode201-300/leetcode-0222.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode201-300/leetcode-0224.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode201-300/leetcode-0225.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode201-300/leetcode-0226.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode201-300/leetcode-0227.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode201-300/leetcode-0230.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode201-300/leetcode-0231.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode201-300/leetcode-0232.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode201-300/leetcode-0234.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode201-300/leetcode-0235.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode201-300/leetcode-0236.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode201-300/leetcode-0237.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode201-300/leetcode-0239.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode201-300/leetcode-0241.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode201-300/leetcode-0253.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode201-300/leetcode-0261.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode201-300/leetcode-0268.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode201-300/leetcode-0277.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode201-300/leetcode-0283.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode201-300/leetcode-0292.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode201-300/leetcode-0295.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode201-300/leetcode-0297.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode201-300/leetcode-0300.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode301-400/leetcode-0303.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode301-400/leetcode-0304.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode301-400/leetcode-0309.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode301-400/leetcode-0312.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode301-400/leetcode-0315.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode301-400/leetcode-0316.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode301-400/leetcode-0319.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode301-400/leetcode-0322.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode301-400/leetcode-0323.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode301-400/leetcode-0327.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode301-400/leetcode-0337.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode301-400/leetcode-0341.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode301-400/leetcode-0344.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode301-400/leetcode-0347.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode301-400/leetcode-0355.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode301-400/leetcode-0370.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode301-400/leetcode-0372.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode301-400/leetcode-0380.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode301-400/leetcode-0382.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode301-400/leetcode-0398.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode401-500/leetcode-0410.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode401-500/leetcode-0416.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode401-500/leetcode-0433.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode401-500/leetcode-0435.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode401-500/leetcode-0438.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode401-500/leetcode-0442.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode401-500/leetcode-0449.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode401-500/leetcode-0450.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode401-500/leetcode-0452.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode401-500/leetcode-0460.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode401-500/leetcode-0486.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode401-500/leetcode-0493.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode401-500/leetcode-0494.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode401-500/leetcode-0496.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode501-600/leetcode-0503.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode501-600/leetcode-0509.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode501-600/leetcode-0514.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode501-600/leetcode-0515.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode501-600/leetcode-0518.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode501-600/leetcode-0528.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode501-600/leetcode-0538.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode501-600/leetcode-0543.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode501-600/leetcode-0560.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode501-600/leetcode-0567.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode501-600/leetcode-0583.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode501-600/leetcode-0591.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode601-700/leetcode-0645.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode601-700/leetcode-0648.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode601-700/leetcode-0651.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode601-700/leetcode-0652.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode601-700/leetcode-0654.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode601-700/leetcode-0662.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode601-700/leetcode-0669.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode601-700/leetcode-0677.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode601-700/leetcode-0694.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode601-700/leetcode-0695.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode601-700/leetcode-0698.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode601-700/leetcode-0700.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode701-800/leetcode-0701.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode701-800/leetcode-0703.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode701-800/leetcode-0704.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode701-800/leetcode-0710.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode701-800/leetcode-0712.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode701-800/leetcode-0713.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode701-800/leetcode-0714.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode701-800/leetcode-0739.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode701-800/leetcode-0743.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode701-800/leetcode-0752.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode701-800/leetcode-0772.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode701-800/leetcode-0773.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode701-800/leetcode-0785.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode701-800/leetcode-0787.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode701-800/leetcode-0793.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode701-800/leetcode-0797.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode801-900/leetcode-0838.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode801-900/leetcode-0870.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode801-900/leetcode-0871.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode801-900/leetcode-0875.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode801-900/leetcode-0876.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode801-900/leetcode-0877.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode801-900/leetcode-0886.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode801-900/leetcode-0887.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode801-900/leetcode-0889.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode801-900/leetcode-0895.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode901-1000/leetcode-0912.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode901-1000/leetcode-0913.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode901-1000/leetcode-0921.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode901-1000/leetcode-0931.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode901-1000/leetcode-0933.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode901-1000/leetcode-0937.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode901-1000/leetcode-0942.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode901-1000/leetcode-0944.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode901-1000/leetcode-0986.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode901-1000/leetcode-0990.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/deployment.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/deployment.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.19.2/CMakeCCompiler.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.19.2/CMakeCXXCompiler.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.19.2/CMakeDetermineCompilerABI_C.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.19.2/CMakeDetermineCompilerABI_CXX.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.19.2/CMakeRCCompiler.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.19.2/CMakeSystem.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.19.2/CompilerIdC/CMakeCCompilerId.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.19.2/CompilerIdC/a.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.19.2/CompilerIdCXX/CMakeCXXCompilerId.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.19.2/CompilerIdCXX/a.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeOutput.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-environment.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/cmake.check_cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/leetcode.dir/DependInfo.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/leetcode.dir/build.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/leetcode.dir/cmake_clean.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/leetcode.dir/depend.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/leetcode.dir/flags.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/leetcode.dir/link.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/leetcode.dir/linklibs.rsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/leetcode.dir/objects1.rsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/leetcode.dir/progress.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/cmake_install.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/leetcode.cbp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/leetcode.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode-0001.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode-0002.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode-0003.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode-0004.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode-0005.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode-0007.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode-0008.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode-0009.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode-0010.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode-0011.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode-0014.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode-0015.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode-0017.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode-0018.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode-0019.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode-0020.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode-0021.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode-0022.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode-0023.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode-0025.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode-0026.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode-0027.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode-0028.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode-0033.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode-0034.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode-0037.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode-0039.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode-0040.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode-0042.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode-0045.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode-0046.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode-0047.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode-0048.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode-0051.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode-0053.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode-0054.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode-0055.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode-0056.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode-0059.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode-0064.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode-0070.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode-0072.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode-0076.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode-0077.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode-0078.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode-0079.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode-0082.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode-0083.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode-0088.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode-0090.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode-0092.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode-0093.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode-0095.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode-0096.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode-0098.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode-0103.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode-0104.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode-0105.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode-0106.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode-0111.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode-0114.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode-0116.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode-0120.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode-0121.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode-0122.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode-0123.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode-0124.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode-0130.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode-0134.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode-0136.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode-0141.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode-0142.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode-0143.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode-0144.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode-0146.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode-0148.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode-0151.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode-0155.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode-0160.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode-0165.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode-0167.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode-0169.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode-0172.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode-0174.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode-0188.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode-0191.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode-0198.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode-0200.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode-0204.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode-0206.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode-0207.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode-0208.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode-0210.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode-0211.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode-0213.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode-0215.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode-0217.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode-0222.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode-0224.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode-0225.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode-0226.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode-0227.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode-0230.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode-0231.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode-0232.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode-0234.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode-0235.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode-0236.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode-0237.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode-0239.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode-0241.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode-0253.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode-0261.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode-0268.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode-0277.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode-0283.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode-0292.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode-0295.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode-0297.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode-0300.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode-0303.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode-0304.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode-0309.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode-0312.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode-0315.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode-0316.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode-0319.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode-0322.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode-0323.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode-0327.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode-0337.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode-0341.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode-0344.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode-0347.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode-0355.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode-0370.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode-0372.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode-0380.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode-0382.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode-0398.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode-0410.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode-0416.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode-0433.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode-0435.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode-0438.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode-0442.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode-0449.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode-0450.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode-0452.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode-0460.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode-0486.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode-0493.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode-0494.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode-0496.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode-0503.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode-0509.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode-0514.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode-0515.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode-0518.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode-0528.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode-0538.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode-0543.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode-0560.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode-0567.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode-0583.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode-0591.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode-0645.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode-0648.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode-0651.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode-0652.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode-0654.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode-0662.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode-0669.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode-0677.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode-0694.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode-0695.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode-0698.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode-0700.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode-0701.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode-0703.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode-0704.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode-0710.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode-0712.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode-0713.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode-0714.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode-0739.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode-0743.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode-0752.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode-0772.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode-0773.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode-0785.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode-0787.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode-0793.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode-0797.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode-0870.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode-0871.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode-0875.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode-0876.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode-0877.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode-0886.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode-0887.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode-0889.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode-0895.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode-0912.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode-0913.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode-0921.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode-0931.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode-0933.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode-0937.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode-0942.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode-0944.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode-0986.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode-0990.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/小米力扣算法题，c++版本.md" beforeDir="false" afterPath="$PROJECT_DIR$/小米力扣算法题，c++版本.md" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="2E70InWgAAn3cvyRjH7QSDLU7Rx" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="RunOnceActivity.cidr.known.project.marker" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="true" />
+    <property name="cf.first.check.clang-format" value="false" />
+    <property name="cidr.known.project.marker" value="true" />
+    <property name="cmake.loaded.for.project" value="true" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="leetcode" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="leetcode" TARGET_NAME="leetcode" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="leetcode" RUN_TARGET_NAME="leetcode">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="GradleAppRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true">
+      <method v="2">
+        <option name="com.jetbrains.cidr.cpp.gradle.execution.GradleNativeBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="应用程序级" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="默认任务">
+      <changelist id="397ff5d9-c1a4-474c-8a2b-941ba02fb8a7" name="变更" comment="" />
+      <created>1661931240125</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1661931240125</updated>
+      <workItem from="1661931243156" duration="146000" />
+      <workItem from="1661931745454" duration="77000" />
+      <workItem from="1661931848356" duration="46000" />
+      <workItem from="1661931905584" duration="16552000" />
+      <workItem from="1662103688417" duration="1967000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+</project>

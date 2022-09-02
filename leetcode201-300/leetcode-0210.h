@@ -22,6 +22,7 @@ public:
                 //-如果i节点已经在res中了
                 if(inlist[i] < 0){
                     continue;
+                    
                 }
                 //-如果入度为0了，加入到res中
                 if(inlist[i]==0){

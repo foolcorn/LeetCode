@@ -5,14 +5,14 @@
       <paths name="远程主机 (1) (93991aea-5fff-49fd-8010-8e073f1a7819)">
         <serverdata>
           <mappings>
-            <mapping deploy="/tmp/tmp.Uj55tgwQpf" local="$PROJECT_DIR$" />
+            <mapping local="$PROJECT_DIR$" web="/" />
           </mappings>
         </serverdata>
       </paths>
       <paths name="远程主机 (bb143b12-32b2-4328-8351-c0340781e86e)">
         <serverdata>
           <mappings>
-            <mapping deploy="/tmp/tmp.jnM9K8jeHl" local="$PROJECT_DIR$" />
+            <mapping deploy="/tmp/tmp.eNmpdVbXYl" local="$PROJECT_DIR$" />
           </mappings>
           <excludedPaths>
             <excludedPath local="true" path="$PROJECT_DIR$/cmake-build-debug" />
