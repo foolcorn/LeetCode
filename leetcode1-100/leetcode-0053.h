@@ -5,7 +5,7 @@ public:
     int maxSubArray(vector<int>& nums) {
         int n = nums.size();
         if(n == 0){return 0;}
-        dp设置为,以i为终点的最大连续子数组和
+        //-dp设置为,以i为终点的最大连续子数组和
         vector<int>dp(n,0);
         dp[0] = nums[0];
         for(int i = 1;i<n;++i){

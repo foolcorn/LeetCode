@@ -10,7 +10,7 @@ public:
     //-参数有三个：
     //- 1：int n:n数之和---2. int start:从start到end范围找元素---3: int target:n数和的target是多少
     vector<vector<int>> nSum(int n,int start, int target){
-        cout<<"n: "<<n<<" start: "<<start<<" target "<<target<<endl;
+//        cout<<"n: "<<n<<" start: "<<start<<" target "<<target<<endl;
         //-设置n数和的临时答案，最后返回给上个递归
         vector<vector<int>> temp;
         if(n>2){
