@@ -114,6 +114,9 @@
 		<Unit filename="D:/myprogram/leetcode/leetcode-1024.h">
 			<Option target="leetcode"/>
 		</Unit>
+		<Unit filename="D:/myprogram/leetcode/leetcode-1029.h">
+			<Option target="leetcode"/>
+		</Unit>
 		<Unit filename="D:/myprogram/leetcode/leetcode-1038.h">
 			<Option target="leetcode"/>
 		</Unit>
@@ -351,6 +354,9 @@
 		<Unit filename="D:/myprogram/leetcode/leetcode1-100/leetcode-0083.h">
 			<Option target="leetcode"/>
 		</Unit>
+		<Unit filename="D:/myprogram/leetcode/leetcode1-100/leetcode-0086.h">
+			<Option target="leetcode"/>
+		</Unit>
 		<Unit filename="D:/myprogram/leetcode/leetcode1-100/leetcode-0088.h">
 			<Option target="leetcode"/>
 		</Unit>
@@ -439,6 +445,9 @@
 			<Option target="leetcode"/>
 		</Unit>
 		<Unit filename="D:/myprogram/leetcode/leetcode101-200/leetcode-0151.h">
+			<Option target="leetcode"/>
+		</Unit>
+		<Unit filename="D:/myprogram/leetcode/leetcode101-200/leetcode-0152.h">
 			<Option target="leetcode"/>
 		</Unit>
 		<Unit filename="D:/myprogram/leetcode/leetcode101-200/leetcode-0155.h">
@@ -646,6 +655,9 @@
 			<Option target="leetcode"/>
 		</Unit>
 		<Unit filename="D:/myprogram/leetcode/leetcode401-500/leetcode-0403.h">
+			<Option target="leetcode"/>
+		</Unit>
+		<Unit filename="D:/myprogram/leetcode/leetcode401-500/leetcode-0407.h">
 			<Option target="leetcode"/>
 		</Unit>
 		<Unit filename="D:/myprogram/leetcode/leetcode401-500/leetcode-0410.h">

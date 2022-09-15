@@ -12,52 +12,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="397ff5d9-c1a4-474c-8a2b-941ba02fb8a7" name="变更" comment="">
-      <change afterPath="$PROJECT_DIR$/leetcode-1004.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode-1043.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode-1047.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode-1091.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode-1201.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode-1262.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode1-100/leetcode-0062.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode1-100/leetcode-0063.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode1-100/leetcode-0065.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode101-200/leetcode-0135.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode201-300/leetcode-0214.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode301-400/leetcode-0333.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode301-400/leetcode-0349.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode301-400/leetcode-0365.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode301-400/leetcode-0386.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode401-500/leetcode-0403.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode401-500/leetcode-0423.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode401-500/leetcode-0440.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode401-500/leetcode-0453.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode401-500/leetcode-0459.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode401-500/leetcode-0462.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode401-500/leetcode-0473.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode401-500/leetcode-0478.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode601-700/leetcode-0611.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode601-700/leetcode-0622.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode601-700/leetcode-0679.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode701-800/leetcode-0796.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode801-900/leetcode-0803.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode901-1000/leetcode-0980.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/其它/LCP09.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/其它/jianzhi40.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/其它/jianzhi62.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/其它/mianshi1724.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/深信服leetcode.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/网易top100.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/网易游戏top100.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode-1029.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode1-100/leetcode-0086.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode101-200/leetcode-0152.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode401-500/leetcode-0407.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/携程top.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/leetcode.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/leetcode.cbp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode1-100/leetcode-0018.h" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode1-100/leetcode-0018.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode1-100/leetcode-0053.h" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode1-100/leetcode-0053.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode1-100/leetcode-0093.h" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode1-100/leetcode-0093.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode101-200/leetcode-0103.h" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode101-200/leetcode-0103.h" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -91,11 +54,6 @@
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RunManager">
-    <configuration default="true" type="CLionExternalRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true">
-      <method v="2">
-        <option name="CLION.EXTERNAL.BUILD" enabled="true" />
-      </method>
-    </configuration>
     <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
@@ -104,6 +62,11 @@
     <configuration name="leetcode" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="leetcode" TARGET_NAME="leetcode" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="leetcode" RUN_TARGET_NAME="leetcode">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="GradleAppRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true">
+      <method v="2">
+        <option name="com.jetbrains.cidr.cpp.gradle.execution.GradleNativeBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
   </component>
@@ -122,6 +85,7 @@
       <workItem from="1662103688417" duration="12707000" />
       <workItem from="1662514432862" duration="13892000" />
       <workItem from="1663031927323" duration="12460000" />
+      <workItem from="1663234416345" duration="575000" />
     </task>
     <servers />
   </component>
