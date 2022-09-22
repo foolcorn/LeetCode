@@ -396,6 +396,9 @@
 		<Unit filename="D:/myprogram/leetcode/leetcode101-200/leetcode-0114.h">
 			<Option target="leetcode"/>
 		</Unit>
+		<Unit filename="D:/myprogram/leetcode/leetcode101-200/leetcode-0115.h">
+			<Option target="leetcode"/>
+		</Unit>
 		<Unit filename="D:/myprogram/leetcode/leetcode101-200/leetcode-0116.h">
 			<Option target="leetcode"/>
 		</Unit>
@@ -780,6 +783,9 @@
 		<Unit filename="D:/myprogram/leetcode/leetcode601-700/leetcode-0654.h">
 			<Option target="leetcode"/>
 		</Unit>
+		<Unit filename="D:/myprogram/leetcode/leetcode601-700/leetcode-0657.h">
+			<Option target="leetcode"/>
+		</Unit>
 		<Unit filename="D:/myprogram/leetcode/leetcode601-700/leetcode-0662.h">
 			<Option target="leetcode"/>
 		</Unit>
@@ -858,6 +864,9 @@
 		<Unit filename="D:/myprogram/leetcode/leetcode801-900/leetcode-0803.h">
 			<Option target="leetcode"/>
 		</Unit>
+		<Unit filename="D:/myprogram/leetcode/leetcode801-900/leetcode-0836.h">
+			<Option target="leetcode"/>
+		</Unit>
 		<Unit filename="D:/myprogram/leetcode/leetcode801-900/leetcode-0838.h">
 			<Option target="leetcode"/>
 		</Unit>
@@ -930,7 +939,16 @@
 		<Unit filename="D:/myprogram/leetcode/其它/LCP09.h">
 			<Option target="leetcode"/>
 		</Unit>
+		<Unit filename="D:/myprogram/leetcode/其它/jianzhi14.h">
+			<Option target="leetcode"/>
+		</Unit>
+		<Unit filename="D:/myprogram/leetcode/其它/jianzhi20.h">
+			<Option target="leetcode"/>
+		</Unit>
 		<Unit filename="D:/myprogram/leetcode/其它/jianzhi40.h">
+			<Option target="leetcode"/>
+		</Unit>
+		<Unit filename="D:/myprogram/leetcode/其它/jianzhi47.h">
 			<Option target="leetcode"/>
 		</Unit>
 		<Unit filename="D:/myprogram/leetcode/其它/jianzhi62.h">
